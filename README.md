@@ -7,6 +7,9 @@ SixByTwo Degrees of Wikipedia checks whether an article can be reached from a so
 
 **Note:** Since the articles are fetched directly from Wikipedia website, the application is feasible only up to three levels of connection. Anything more than that will take significant time.
 
+## How to run?
+Run the **'main.py'** file from the **'main'** folder and follow the onscreen instructions.
+
 ## Tech Stack
 * **Python** programming langauge 
 * **BeautifulSoup** library for parsing wikipedia page
