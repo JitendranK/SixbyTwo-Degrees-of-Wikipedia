@@ -1,6 +1,6 @@
 # SixbyTwo-Degrees-of-Wikipedia
 
-SixByTwo Degrees of Wikipedia is a website which traverses hyperlinks on Wikipedia to find whether two articles can be reached within three clicks.
+SixByTwo Degrees of Wikipedia is a website that traverses hyperlinks on Wikipedia to find whether two articles can be reached within three clicks.
 
 ## How does it work?
 SixByTwo Degrees of Wikipedia checks whether an article can be reached from a source article within three clicks. It opens the Wikipedia page of the given article and then parses the HTML page to find the hyperlinks to other articles. Breath-First Search is used to find the hyperlinked path between the two articles. After finding the path between the articles, they are opened in the Google Chrome browser. 
